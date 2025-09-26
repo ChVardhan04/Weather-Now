@@ -1,0 +1,10 @@
+imple React + Vite app that shows current weather for any city using Open-Meteo geocoding and weather APIs.
+## Run locally
+1. npm install
+2. npm run dev
+3. Open the URL from Vite (http://localhost:5174 or similar)
+
+## Notes
+- Uses Open-Meteo free APIs, no API key needed.
+- Tailwind CSS for styling.
+"@ | Set-Content -Path README.md -Encoding UTF8

@@ -210,7 +210,7 @@ export default function App() {
       <div className="w-full max-w-xl bg-white shadow-lg rounded-2xl p-6">
         <header className="mb-4">
           <h1 className="text-2xl font-semibold">Weather Now</h1>
-          <p className="text-sm text-gray-500">Get current weather for any city — fast.</p>
+          <p className="text-sm text-gray-500">Get current weather for any city - fast.</p>
         </header>
 
         <form onSubmit={handleSearch} className="flex gap-3" role="search">

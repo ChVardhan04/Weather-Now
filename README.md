@@ -1,16 +1,43 @@
-# React + Vite
+# Weather Now ☀️🌧️🌩️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple weather application built with **React + Vite** and styled with **Tailwind CSS**.  
+It uses the free [Open-Meteo APIs](https://open-meteo.com/) to provide **current weather conditions** for any city in the world.
 
-Currently, two official plugins are available:
+Live Demo: [Weather Now on Vercel](https://weather-now-one-theta.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
+- Search weather by **city name** (via Open-Meteo Geocoding API).
+- Handles ambiguous cities with a **list of possible matches**.
+- Displays:
+  - Temperature (Celsius / Fahrenheit toggle)
+  - Weather condition + emoji icon
+  - Wind speed & direction
+  - Local timestamp
+- Saves **last searched city** and preferred **unit** in localStorage.
+- Clean, responsive UI with Tailwind CSS.
+- Deployed on Vercel for a stable, public URL.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- **React + Vite** — fast build & dev server.
+- **Tailwind CSS** — utility-first styling.
+- **Open-Meteo APIs** — free geocoding + weather data (no key required).
+- **Vercel** — hosting & deployment.
+- **LocalStorage** — persistence for city + unit.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js v22+ (recommended)  
+- npm v9+
+
+### Setup
+Clone the repository:
+```bash
+git clone https://github.com/<your-username>/weather-now.git
+cd weather-now
